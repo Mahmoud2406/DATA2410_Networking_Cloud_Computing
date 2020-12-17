@@ -1,0 +1,6 @@
+,Header/Trailer,Payload,Total,Remarks/Calculations
+User data,0,312,312,Header+Payload=Total/0+312=312
+Application (HTTP),205,312,517,Header+Payload=Total/205+312=517
+TCP,20,517,537,Payload+Header=Total/517+20=537
+IP,20,537,557,Total-Header=Payload/557-20=537
+Ethernet,26,557,583,Preamble+Adresses+Type+Payload+CRC=Total/8+12+2+557+4=583
